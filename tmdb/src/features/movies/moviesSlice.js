@@ -1,5 +1,5 @@
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit'
-import { getMovies } from '../api/tmdbApi'
+import { getMovies } from '../../api/tmdbApi'
 
 // createAsyncThunk(): 영화 목록을 API로 부터 가져온다(비동기 액션 처리)
 // createAsyncThunk(액션의 타입명 지정, 비동기 함수로 api 호출)
